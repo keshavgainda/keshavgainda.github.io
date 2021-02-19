@@ -200,21 +200,7 @@
     transform: translateX(-50%);
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- /* Resposive media starts */
+/* Resposive media starts */
  @media(max-width: 1104px){
     .home .max-width{
         margin-left: 0px;
