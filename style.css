@@ -200,11 +200,23 @@ html{
     position: relative;
      font-family: 'Ubuntu', sans-serif;
      font-size: 40px;
-     font-weight: 500;
-     margin-bottom: 60px;
-     padding-bottom: 20px;
+     font-weight: 700;
+     margin-bottom: 30px;
+     padding-bottom: 10px;
      text-align: center;
+     font-family: Darker Grotesque;
 }
+.skills .title::after{
+    content: "My Strengths";
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding-bottom: 5px;
+    background: white;
+    transform: translateX(-50%);
+ }
 .skills .title::before{
     content: " ";
     position: absolute;
@@ -227,7 +239,10 @@ html{
  }
  .skills .skills-content .text{
      font-size: 20px;
-     font-weight: 600;
+     font-weight: bold;
+     font-family: Comic Neue;
+     text-align: center;
+     color: black;
  }
 
  .skills .skills-content li{
@@ -239,6 +254,7 @@ html{
      margin-top: 5px;
      margin-bottom: 5px;
      text-align: center;
+     font-family: Comic Neue;
 
  }
  .skills .right{
@@ -250,6 +266,11 @@ html{
      border-color:crimson;
      padding: 5px;
      margin: 3px;
+     font-family: Comic Neue;
+ }
+
+ #line1{
+     margin-bottom: 20px;
  }
 
 
@@ -259,10 +280,21 @@ html{
      font-family: 'Ubuntu', sans-serif;
      font-size: 40px;
      font-weight: 500;
-     margin-bottom: 60px;
-     padding-bottom: 20px;
+     margin-bottom: 30px;
+     padding-bottom: 10px;
      text-align: center;
 }
+.contact .title::after{
+    content: "Get in Touch";
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    font-size: 17px;
+    color: crimson;
+    padding-bottom: 5px;
+    background: white;
+    transform: translateX(-50%);
+ }
 .contact .title::before{
     content: " ";
     position: absolute;
