@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Girassol&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Girassol&family=Special+Elite&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Girassol&family=Graduate&family=Special+Elite&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Display:wght@100&family=Comic+Neue&family=Girassol&family=Graduate&family=Special+Elite&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Display:wght@100&family=Comic+Neue&family=Darker+Grotesque&family=Girassol&family=Graduate&family=Marvel:ital@1&family=Special+Elite&family=Staatliches&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
 }
 /* Navigation Bar styling */
 .max-width{
@@ -16,7 +23,7 @@
    padding: 20px 0;
    background-color:grey;
    width: 100%; 
-   font-family: 'Ubuntu' , sans-serif;
+   font-family:Staatliches;
    transition: all 0.3s ease;
    z-index: 999;
 }
@@ -44,7 +51,7 @@
 }
  .navbar .menu li a{
      color: white;
-     font-size: 18px;
+     font-size: 22px;
      font-weight: 500;
      margin-left: 25px;
      transition: color 0.3s ease;
@@ -82,17 +89,21 @@
      font-size: 27px;
  }
  .home .home-content .text2{
-     font-size: 75px;
+     font-size: 65px;
      font-weight: 600;
      margin-left: -3px;
+     font-family: Graduate;
  }
  .home .home-content .text3{
      font-size: 40px;
      margin: 5px 0;
+     color: black;
+     font-family: Comic Neue;
  }
  .home .home-content .text3 span{
      color: crimson;
      font-weight: 500;
+     font-family: Special Elite;
  }
 
  
@@ -100,17 +111,18 @@
  section{
      padding: 100px 0; 
  }
- .about{
+ .about,footer{
      font-family: 'Ubuntu', sans-serif;
  }
  .about .title{
      position: relative;
      font-family: 'Ubuntu', sans-serif;
      font-size: 40px;
-     font-weight: 500;
-     margin-bottom: 60px;
-     padding-bottom: 20px;
+     font-weight: 700;
+     margin-bottom: 30px;
+     padding-bottom: 10px; 
      text-align: center;
+     font-family: Darker Grotesque;
  }
  .about .title::before{
      content: " ";
@@ -144,24 +156,28 @@
     transform: translateX(-50%);
  }
  .about .about-content .left img{
-     height: 300 px;
-     width: 300px;
+     height: 350 px;
+     width: 400px;
      object-fit: cover;
  }
  .about .about-content .right{
     width: 55%;
+    margin-bottom: 100px;
 }
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    font-family: Comic Neue;
 
 }
 .about .about-content .right .text span{
     color: crimson;
+    font-family: Special Elite;
 }
 .about .about-content .right p{
     text-align: justify;
+    font-family: Comic Neue;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -293,7 +309,76 @@
 .contact .contact-content .info .head{
     font-weight: 600;
 }
+.contact .contact-content .right{
+    width: 50%;
+    height: 100%;
+} 
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form email{
+    margin-left: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+}
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .right form .button{
+    height: 47px;
+    width: 170px;
+}
+.contact .right form .button button{
+    height: 100%;
+    width: 100%;
+    border: 2px solid crimson;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+    color: crimson;
+    background: none;
+}
 
+
+/* Footer Section styling */
+footer{
+    background: black;
+    padding: 20px 23px;
+    color: white;
+    text-align: center;
+}
+footer span{
+    color: crimson;
+}
 
 
 

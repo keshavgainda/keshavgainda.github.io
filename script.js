@@ -14,4 +14,19 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+    //typed animation script
+    var typed = new Typed(".typing", {
+        strings: ["Student", "Learner", "Programmer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2", {
+        strings: ["Student", "Learner", "Programmer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
 });
