@@ -279,7 +279,7 @@ html{
     position: relative;
      font-family: 'Ubuntu', sans-serif;
      font-size: 40px;
-     font-weight: 500;
+     font-weight: 300;
      margin-bottom: 30px;
      padding-bottom: 10px;
      text-align: center;
@@ -310,6 +310,7 @@ html{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+    font-family: Comic Neue;
 }
 .contact .contact-content{
     display: flex;
@@ -325,7 +326,18 @@ html{
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
+    
 }
+.contact .contact-content .left{
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 3.2%;
+}
+
+#icon{
+    color: crimson;
+}
+
 .contact .contact-content .row{
     display: flex;
     height: 65px;
@@ -342,63 +354,10 @@ html{
     font-weight: 600;
 }
 .contact .contact-content .right{
-    width: 50%;
     height: 100%;
+    margin-left: 15%;
+    margin-right: 15%
 } 
-.contact .right form .fields{
-    display: flex;
-}
-.contact .right form .field,
-.contact .right form .fields .field{
-    height: 45px;
-    width: 100%;
-    margin-bottom: 15px;
-}
-.contact .right form .textarea{
-    height: 80px;
-    width: 100%;
-}
-.contact .right form .name{
-    margin-right: 10px;
-}
-.contact .right form email{
-    margin-left: 10px;
-}
-.contact .right form .field input,
-.contact .right form .textarea textarea {
-    height: 100%;
-    width: 100%;
-    border: 1px solid lightgray;
-    border-radius: 7px;
-    outline: none;
-    padding: 0 15px;
-    font-size: 17px;
-    font-family: 'Poppins',sans-serif;
-}
-.contact .right form .textarea textarea{
-    padding-top: 10px;
-    resize: none;
-}
-.contact .right form .button{
-    height: 47px;
-    width: 170px;
-}
-.contact .right form .button button{
-    height: 100%;
-    width: 100%;
-    border: 2px solid crimson;
-    background: crimson;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.contact .right form .button button:hover{
-    color: crimson;
-    background: none;
-}
 
 
 /* Footer Section styling */
