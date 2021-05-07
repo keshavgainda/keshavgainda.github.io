@@ -14,27 +14,27 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    var Webflow = Webflow || [];
-  Webflow.push(function() {
-    $.get('https://cdn.rawgit.com/alvarotrigo/fullPage.js/master/examples/simple.html', function(data) {
-      $('#ajaxContent').append(data);
-    });
-  });
+//     var Webflow = Webflow || [];
+//   Webflow.push(function() {
+//     $.get('https://cdn.rawgit.com/alvarotrigo/fullPage.js/master/examples/simple.html', function(data) {
+//       $('#ajaxContent').append(data);
+//     });
+//   });
 
-    //typed animation script
-    var typed = new Typed(".typing", {
-        strings: ["Student", "Learner", "Programmer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+    // //typed animation script
+    // var typed = new Typed(".typing", {
+    //     strings: ["Student", "Learner", "Programmer"],
+    //     typeSpeed: 100,
+    //     backSpeed: 60,
+    //     loop: true
+    // });
 
-    var typed = new Typed(".typing-2", {
-        strings: ["Student", "Learner", "Programmer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+    // var typed = new Typed(".typing-2", {
+    //     strings: ["Student", "Learner", "Programmer"],
+    //     typeSpeed: 100,
+    //     backSpeed: 60,
+    //     loop: true
+    // });
   
 
 });

@@ -145,7 +145,7 @@ html{
     width: 45%;
 }
  .about .title::after{
-    content: " Who I am";
+    content: " Who am I";
     position: absolute;
     bottom: -14px;
     left: 50%;
